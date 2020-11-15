@@ -1,0 +1,42 @@
+nav {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav div {
+    display: flex;
+}
+#search-div {
+    width: 32vw;
+}
+#nav-search {
+    width: 100%;
+}
+#yt-logo {
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main {
+    display: flex;
+}
+#side-bar {
+    width: 12%;
+    color: black;
+}
+#videos {
+    width: 88%;
+}
+#tag-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+#tag-buttons button {
+    padding: 3px;
+    border-radius: 7em;
+    border: solid 1px grey;
+}
