@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.app-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 15%;
+    height: 100vh;
+    background-color: lightgreen;
+}
+
+.website {
+    width: 85%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.searchbar input {
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #333333;
+    width: 25%;
+}
+
+.searchbar .search-icon {
+    padding: 4px 10px;
+    border: 1px solid #333333;
+}
+
+.topic-tags {
+    padding: 10px 9px;
+    border-top: 1px solid #ddd;
+}
+
+.topic-tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.topic-tag p {
+    padding: 7px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    width: fit-content;
+    border: 1px solid #ddd;
+    font-size: 0.8em;
+    margin-right: 15px;
+}
+
+.video-content {
+    padding: 15px 100px;
+}
+
+.video-container {
+    width: 400px;
+    height: 300px;
+}
+
+.banner-image {
+    background: #333333;
+    width: 100%;
+    height: 80%;
+}
+
+.video-detail {
+    width: 100%;
+    height: 20%;
+}
+
