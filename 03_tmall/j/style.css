@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: lightgray;
+    width: 100%;
+}
+ul {
+    font-size: small;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+    font-weight: normal;
+    color: grey;
+    padding: 10px;
+}
+.left {
+    margin-right: auto;
+    margin-left: 300px;
+}
+.end {
+    margin-right: 300px;
+}
+.tall {
+    font-size: larger;
+}
+header {
+    background-color: white;
+    height: 200px;
+}
+section {
+    background-color: grey;
+    height: 500px;
+}
+input {
+    width: 350px;
+    border: 2px solid red;
+    height: 25px;
+    box-sizing: border-box;
+}
+button {
+    border: 2px solid red;
+    background-color: red;
+    height: 25px;
+    margin-left: -5px;
+}
