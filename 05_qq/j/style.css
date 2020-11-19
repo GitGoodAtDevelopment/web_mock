@@ -1,3 +1,73 @@
 body {
-
+    padding: 0;
+    margin: 0;
+}
+nav {
+    width: 100vw;
+}
+.top-bar {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+.logo {
+    width: 30%;
+    height: 70px;
+    background-color: blue;
+}
+.search {
+    margin-left: -40px;
+    position: relative;
+    padding-top: 20px;
+    width: 500px;
+}
+ul {
+    list-style-type: none;
+}
+input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 28px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: aqua;
+}
+.search button {
+    width: 120px;
+    margin-left: -20px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.top-account{
+    display: flex;
+}
+.top-account li {
+    padding: 5px;
+}
+.login-button {
+    color: lightblue;
+    background-color: grey;
+    border: none;
+}
+.main-bar {
+    margin-top: -20px;
+    background-color: blue;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2px;
+}
+.main-bar ul{
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 35px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
 }
