@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial sans-serif;
+}
+
+.orange {
+  color: orangered;
+}
+
+.banner {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner-section p {
+  margin: 0 10px;
+  color: #242424;
+}
+
+.navbar {
+  height: 100px;
+  background-color: orangered;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 4em;
+}
+
+.searchbar {
+  width: 50%;
+}
+
+.search-top {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border: none;
+}
+
+.lookup-icon {
+  padding: 10px 15px;
+  color: orangered;
+}
+
+.right-stuff {
+  display: flex;
+}
+
+.user-info {
+  display: flex;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.right-stuff2 {
+  color: #fff;
+}
+
+.r-bottom {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.money {
+  height: 20px;
+  width: 20px;
+  background-color: orange;
+  border-radius: 100%;
+}
+
+.text {
+  color: orangered;
+}
