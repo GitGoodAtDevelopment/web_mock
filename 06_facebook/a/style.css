@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  height: 75vh;
+  width: 100%;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-left {
+  padding: 30px;
+  max-width: 300px;
+}
+
+.top-left h1 {
+  color: rgb(0, 89, 255);
+  font-size: 3em;
+  margin: 0;
+}
+
+.top-left h3 {
+  margin: 0;
+}
+
+.login-form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-input {
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 175, 175);
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.form-input:active {
+  border: 1px solid rgb(0, 89, 255);
+}
+
+.forgot-password {
+  padding: 8px;
+  color: rgb(0, 89, 255);
+  text-decoration: none;
+}
+
+.form-button {
+  width: 100%;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 89, 255);
+}
+
+.formsplitter {
+  width: 95%;
+  margin-bottom: 15px;
+  background-color: #dadada;
+  height: 1px;
+  border: none;
+}
+
+.create-account {
+  padding: 8px 10px;
+  color: #ffffff;
+  background-color: rgb(47, 172, 47);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.bottom {
+  height: 25vh;
+  width: 100%;
+}
